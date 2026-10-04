@@ -1,9 +1,12 @@
 // Lưu sẵn ứng dụng để dùng khi không có mạng. Đổi VERSION mỗi lần phát hành.
-const VERSION = 'bvh-v1';
+const VERSION = 'bvh-v2';
 const ASSETS = [
   './', 'index.html', 'manifest.webmanifest', 'css/styles.css',
-  'js/app.js', 'js/content.js', 'js/storage.js', 'js/speech.js',
-  'audio/manifest.json', 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png',
+  'js/app.js', 'js/content.js', 'js/core.js', 'js/storage.js', 'js/speech.js',
+  'js/clips.js', 'js/games.js', 'js/games-data.js',
+  'js/subjects/tiengviet.js', 'js/subjects/toan.js', 'js/subjects/tienganh.js',
+  'js/subjects/khoahoc.js', 'js/subjects/lichsu.js', 'js/subjects/kynang.js',
+  'audio/manifest.json', 'videos/manifest.json', 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png',
 ];
 
 self.addEventListener('install', (e) => {
